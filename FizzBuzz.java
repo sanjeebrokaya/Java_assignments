@@ -9,8 +9,8 @@ public class FizzBuzz {
 
         int number = x.nextInt();
 
-        if(number%3==0 && number%5==0){
-            System.out.println("FIZZBIZZ");
+        if( number%5==0 && number%3==0){
+            System.out.println("BIZZFIZZ");
         }
         else if(number%5==0){
             System.out.println("FIZZ");
